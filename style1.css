@@ -73,7 +73,7 @@ h1 {
     margin-top: 20vh;
     margin-left: 35vh;
 }
-#image2 {
+.image2 {
     position: relative;
     margin-left: 20vh;
 }
@@ -169,7 +169,7 @@ hr {
 hr {
     background-color: #eccd0c;
 }
-#line {
+.line-center {
     width: 400px;
     font-size: 4px;
 }
@@ -426,7 +426,7 @@ justify-content: flex-end;
     display: block;
     position: relative;
 }
-#image13 {
+#image19 {
     margin-top: 5vh;
     margin-left: 5vh;
 }
@@ -435,6 +435,11 @@ justify-content: flex-end;
     color: #eccd0c;
     font-size:90px;
     font-weight: bolder;
+}
+#image20 {
+    position: relative;
+    margin-top: -15vh;
+    z-index: 1;
 }
 .blok9-plus {
     position: absolute;
