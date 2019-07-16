@@ -21,7 +21,7 @@ h1 {
     margin-top: 5vh;
     font-family: 'Catamaran', sans-serif;
 }
-h2 p{
+.container p{
     font-size: 22px;
 }
 .h6 {
@@ -36,7 +36,7 @@ h2 p{
 #numbermob:visited {
     color: black;
 }
-#ordercall {
+.container button {
     margin-bottom: 2vh;
 }
 .blok2 {
@@ -97,7 +97,7 @@ h2 p{
     font-size: 25px;
     align-items: center;
 }
-#number-countdown span {
+#number-countdown div {
     width: 50px;
     height: 70px;
 }
@@ -166,8 +166,19 @@ hr {
 .blok3_text3 {
     margin-left: 20vh;
 }
+hr {
+    background-color: #eccd0c;
+}
+#line {
+    width: 400px;
+    font-size: 4px;
+}
 .line {
-    margin-left: 30vh;
+   margin-left: 30vh;
+}
+.line hr{
+    width: 200px;
+    font-size: 4px;
 }
 .blok3_section2 {
     display: flex;
@@ -462,7 +473,7 @@ justify-content: flex-end;
     font-size: 25px;
     align-items: center;
 }
-#number-countdown1 span {
+#number-countdown1 div {
     width: 50px;
     height: 70px;
 }
