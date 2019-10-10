@@ -450,7 +450,7 @@ justify-content: flex-end;
 }
 .blok9_text1 {
     margin-top: 10vh;
-    margin-left: 20%;
+    margin-left: 10%;
     display: block;
     position: relative;
 }
@@ -560,6 +560,12 @@ margin-left: 180%;
         } 
         .blok2_countdown {
             margin-left: 20%;
+        }
+        .blok9_text1 {
+            margin-top: 10vh;
+            margin-left: 20%;
+            display: block;
+            position: relative;
         }
 }
 @media (max-width: 520px) {
@@ -1804,4 +1810,7 @@ display: none;
             width: 90%;
             margin-left: 1%;
         }
+}
+@media (max-width: 1340px) {
+
 }
