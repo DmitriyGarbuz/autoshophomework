@@ -496,7 +496,7 @@ margin-left: 180%;
     margin-left: 210%;
     margin-top: -90%;
     color: #eccd0c;
-    font-size: 25px;
+    font-size: 24px;
     font-family: 'Ubuntu', sans-serif;
     transform: rotate(35deg);
 }
@@ -901,3 +901,443 @@ display: none;
         position: relative;
     }
 }
+@media (max-width: 410px) {
+    .container-right {
+        display: none;
+    }
+    .container-left {
+    display: block;
+    margin-left: 5%;
+    width: 100%;
+    }
+    .container-left p{
+        font-size: 15px; 
+    }
+    .blok2 {
+        display: block;
+        justify-content: center;
+        background-image: url(../img/backgroundmob.jpg);
+        background-position-y: 100vh;
+        height: 100vh;
+        background-size: cover;
+    }
+    .blok2_top {
+        margin-top: 0%;
+        display: block;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    #image1 {
+        width: 100%;
+    }
+    .text1 {
+        margin-top: 2%;
+        margin-left: 5%;
+        color: white;
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        text-transform: uppercase;
+    }
+    .text1 span {
+        color: #eccd0c;
+    }
+    .text2 {
+        margin-top: 1vh;
+        margin-left: 5%;
+        color: white;
+        font-size: 15px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .image2 {
+        position: relative;
+        width: 30%;
+        margin-top: -33%;
+        margin-left: 69%;
+    }
+    .text3 {
+        padding-left: 83%;
+        margin-top: -50%;
+        color: #eccd0c;
+        font-size: 13px;
+        font-family: 'Ubuntu', sans-serif;
+        transform: rotate(35deg);
+    }
+    .blok2-sale{
+        justify-content: center;
+    }
+    .text2 span {
+        color: #eccd0c;
+    }
+    .blok2_right {
+        margin-top: 2vh;
+        margin-left: 5%;
+    }
+    .blok2_countdown {
+        margin-left: 7%;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    #number-countdown p {
+        position: relative;
+        top: 1vh;
+        font-size: 20px;
+        align-items: center;
+    }
+    #number-countdown div {
+        width: 35px;
+        height: 45px;
+    }
+    .contdown b {
+        position: relative;
+        top: 2vh;
+        font-size: 60px;
+        color: rgb(51, 51, 51);
+    }
+    .blok2_countdown button {
+        margin-top: 2vh;
+        background-color: #eccd0c;
+        color: rgb(51, 51, 51);
+        height: 50px;
+        width: 270px;
+    }
+    .Backspace {
+        padding: 10vh;
+    }
+    /*blok3*/
+    .line-center {
+        width: 200px;
+        font-size: 4px;
+    }
+    .blok3_section1 {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 15%;
+    }
+    .blok3_text2 {
+        margin-top: 10%;
+        margin-left: 0%;
+    }
+    .blok3_text3 {
+        margin-left: 0%;
+        display: flex;
+        justify-content: center;
+    }
+    .blok3_text3 img {
+        width: 280px;
+        height: auto;
+    }
+    .line-mob{
+        width: 100px;
+        font-size: 4px;
+    }
+    .line {
+        margin-left: 0vh;
+     }
+     .line hr{
+         width: 0px;
+         font-size: 0px;
+     }
+     .br-mob {
+         display: none;
+     }
+    #image5 {
+        display: none;
+    }
+    .blok3 button {
+        align-self: center;
+        margin-top: 3vh;
+        background-color: #eccd0c;
+        color: rgb(51, 51, 51);
+        height: 50px;
+        width: 270px;
+    }
+    /*blok4*/
+    .blok4_section1 {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30%;
+    }
+    /*blok5*/
+    #video {
+        width: 280px;
+        height: auto;
+    }
+    /*blok6*/
+    .blok6_section1 {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5vh;
+    }
+    #h4-mob {
+        margin-top: 15%;
+    }
+    #image10 {
+        margin-top: 15%;
+        width: 100%;
+        height: auto;
+    }
+    #image11 {
+        width: 50%;
+        height: auto;
+    }
+    #image12 {
+        margin-left: 5%;
+        width: 45%;
+        height: auto;
+    }
+    .blok6_text1 img{
+        margin-top: 5%;
+    }
+    .blok6_text1 {
+    margin: 0%;
+    }
+    #image13 {
+        margin-top: 5vh;
+        width: 100%;
+        height: auto;
+    }
+    #image14 {
+        margin-top: 0%;
+        width: 100%;
+        height: auto;
+    }
+    #plus {
+        font-family: 'Ubuntu', sans-serif;
+        color: #eccd0c;
+        font-size:90px;
+        font-weight: bolder;
+        margin-top: -80%;
+    }
+    .blok6 button {
+        margin-top: 5vh;
+        background-color: #eccd0c;
+        color: rgb(51, 51, 51);
+        height: 50px;
+        width: 270px;
+    }
+    /*blok7*/
+    #arrow-left-pc,#arrow-right-pc {
+        display: none;
+    }
+    .blok7_section1 {
+        display: block;
+        margin-top: 25%;
+    }
+    .blok7-image15 {
+     margin-left: 5%;
+     margin-right: 5%;
+    }
+    #image15 {
+        width: 100%;
+        height: auto;
+    }
+    #arrow-left-mob,#arrow-right-mob {
+        display: flex;
+    }
+    .blok7_lap {
+        margin-top: 1vh;
+        display: flex;
+        justify-content: center;
+    }
+    .blok7_lap img {
+        margin-top: 2.5%;
+        height: 10%;
+        width: auto;
+    }
+    .arrow{
+        width: 0px;
+        height: 0px;
+        border: 15px solid transparent; 
+        border-top-color: #eccd0c; 
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    .arrow:before{
+        content:'';
+        width: 0px;
+        height: 0px;
+        border: 5px solid transparent; 
+        border-top-color: white;
+        display: inline-block;
+        -webkit-transform: translate(-5px, -15px);
+    }
+    .arrow.left{
+        margin-top: 0.5vh;
+        margin-right: 20%;
+        transform: rotate(90deg) translate(0px, 25px);
+        -webkit-transform: rotate(90deg) translate(0px, 25px);
+        -moz-transform: rotate(90deg) translate(0px, 25px);
+        -o-transform: rotate(90deg) translate(0px, 25px);
+        -ms-transform: rotate(90deg) translate(0px, 25px);
+    }
+    .arrow.right{
+        margin-top: 0.5vh;
+        margin-left: 20%;
+        transform: rotate(270deg) translate(0px, 25px);
+        -webkit-transform: rotate(270deg) translate(0px, 25px);
+        -moz-transform: rotate(270deg) translate(0px, 25px);
+        -o-transform: rotate(270deg) translate(0px, 25px);
+        -ms-transform: rotate(270deg) translate(0px, 25px);
+    }
+    .blok7-text {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+    }
+    .blok7-reveniew {
+        display: flex;
+        justify-content: flex-start;
+        }
+    .blok7-reveniew img {
+    height: 45px;
+    width: 45px;
+    }
+    .blok7-reveniew p {
+    margin-top: 2vh;
+    font-size: 13px;
+    }
+    #reveniew-name {
+     font-size: 13px;
+        }
+    /*blok8*/
+    .blok8_section {
+        margin-left: 5%;
+        margin-top: 20%;
+        margin-right: 10%;
+    }
+    .blok8-h4 {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .blok8_text1 {
+        display: block;
+        justify-content: center;
+        margin-top: 10%;
+        margin-left: 0vh;
+        margin-right: 0vh;
+    }
+    .text1_logo1 {
+        margin-left: 0vh;
+    }
+    .blok8_text2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-right: 10%;
+    }
+    /*blok9*/
+    #blok9-h3 {
+        font-size: 12px;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-weight: bold;
+    }
+    .blok9_section1 {
+        display: block;
+        margin-top: 20%;
+    }
+    .blok9_text1 {
+        margin-top: 5vh;
+        margin-left: 5%;
+        display: block;
+        position: relative;
+    }
+    #image19 {
+    display: none;
+    }
+    #image19-mob {
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #plus1 {
+        font-family: 'Ubuntu', sans-serif;
+        color: #eccd0c;
+        font-size:90px;
+        font-weight: bolder;
+    }
+    .blok9-plus {
+        position: relative;
+        bottom: 5vh;
+        left: 0vh;
+        z-index: 1;
+    }
+    #image20 {
+        margin-top: -135%;
+        z-index: 4;
+        width: 100%;
+        transform: scaleX(-1);
+        position: static;
+    }
+    .block9_text3{
+        margin-left: 1%;
+        margin-top: -1%;
+        color: #eccd0c;
+        font-size: 16px;
+        font-family: 'Ubuntu', sans-serif;
+        transform: rotate(35deg);
+        }
+    .sale{
+        position: relative;
+        z-index: 3; 
+         }
+    .block9_text3 span {
+        color: white;
+        text-decoration: line-through;
+        text-decoration-color: red;
+        }
+    .blok9_image2 {
+        width: 100px;
+        height: 100px;
+        margin-top: 0%;
+        margin-left: 0%;
+        }
+    .blok9-image14 {
+        margin-top: 0vh;
+        }
+        .blok9_text2 {
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: -20%;
+            display: block;
+            position: relative;
+        }
+        #windowlogin {
+        width: 270px;
+        }
+        #number-countdown1{
+            width: 270px;
+        }
+        #number-countdown1 p {
+            position: relative;
+            top: 1vh;
+            font-size: 20px;
+            align-items: center;
+        }
+        #number-countdown1 div {
+            width: 35px;
+            height: 45px;
+        }
+        .contdown b {
+            position: relative;
+            top: 1vh;
+            font-size: 40px;
+            color: rgb(51, 51, 51);
+        }
+        .blok9 button {
+            margin-top: 2vh;
+            background-color: #eccd0c;
+            color: rgb(51, 51, 51);
+            height: 50px;
+            width: 270px;
+        }
+    }
